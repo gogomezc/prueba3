@@ -1,4 +1,6 @@
 <!doctype html>
+
+{% load static %}
 <html lang="es">
   <head>
     <meta charset="utf-8">
@@ -86,15 +88,15 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/5b5dbdd0e2a6dcacabd7f4f8ce9de3df.jpg" class="d-block w-100" alt="..." height="700px">
+          <img src="{% static 'imagenes/5b5dbdd0e2a6dcacabd7f4f8ce9de3df.jpg' %}" class="d-block w-100" alt="..." height="700px">
         </div>
         <div class="carousel-item">
-          <img src="img/d2e4ed3306b60642a22aceb4f49c6e9d.jpg" class="d-block w-100" alt="..." height="700px">
+          <img src="{% static 'imagenes/d2e4ed3306b60642a22aceb4f49c6e9d.jpg' %}" class="d-block w-100" alt="..." height="700px">
         </div>
         <div class="carousel-item">
-          <img src="img/34dae5d1f8189fcea0d481b531b5946e.jpg" class="d-block w-100" alt="..." height="700px">
+          <img src="{% static 'imagenes/34dae5d1f8189fcea0d481b531b5946e.jpg' %}" class="d-block w-100" alt="..." height="700px">
         </div>
-      </div>
+    </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Anterior</span>
